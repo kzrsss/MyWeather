@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:background="@drawable/biz_plugin_weather_shenzhen_bg"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hour"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:text="08时"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hourtem"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        tools:text="34"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_hourwea"
+        android:textColor="@color/green_500"
+        android:textSize="20sp"
+        tools:text="涂擦"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
